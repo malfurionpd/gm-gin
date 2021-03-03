@@ -10,8 +10,8 @@ import (
 	"strconv"
 	"syscall"
 
+	"github.com/malfurionpd/gm-gin/common/discover"
 	"github.com/malfurionpd/gm-gin/discovery/config"
-	"github.com/malfurionpd/gm-gin/discovery/discover"
 	"github.com/malfurionpd/gm-gin/discovery/endpoint"
 	"github.com/malfurionpd/gm-gin/discovery/service"
 	"github.com/malfurionpd/gm-gin/discovery/transport"
